@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Citigen — Web Development for Growing Businesses</title>
+  <meta name="description" content="Citigen builds stunning, high-performance websites and e-commerce stores for small & medium businesses. Transparent pricing, custom designs, and ongoing support." />
+  <meta name="keywords" content="web development, e-commerce, website design, small business websites, SMB web dev, landing pages, web app development" />
+  <meta property="og:title" content="Citigen — Web Development for Growing Businesses" />
+  <meta property="og:description" content="We build websites that grow your business. Custom designs, transparent pricing, and expert support." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-logo" id="nav-logo">Citi<span>gen</span></a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#portfolio">Work</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-primary" id="nav-cta-btn">Get a Free Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <a href="#services" class="mobile-nav-link">Services</a>
+  <a href="#pricing" class="mobile-nav-link">Pricing</a>
+  <a href="#process" class="mobile-nav-link">Process</a>
+  <a href="#portfolio" class="mobile-nav-link">Work</a>
+  <a href="#faq" class="mobile-nav-link">FAQ</a>
+  <a href="#contact" class="btn btn-primary" style="font-size:1rem;">Get a Free Quote</a>
+</div>
+
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+<section class="hero" id="hero" aria-label="Hero">
+  <div class="grid-bg"></div>
+  <div class="orb orb-purple"></div>
+  <div class="orb orb-cyan"></div>
+
+  <div class="container hero-inner">
+    <!-- Content -->
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="dot"></span>
+        Now accepting new clients for 2026
+      </div>
+
+      <h1 class="hero-title">
+        Websites that<br />
+        <span class="gradient-text">grow your business</span>
+      </h1>
+
+      <p class="hero-description">
+        Citigen builds custom, high-performance websites and e-commerce stores for small &amp; medium businesses. No templates. No fluff. Just results.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#pricing" class="btn btn-primary" id="hero-cta-pricing">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          See Pricing
+        </a>
+        <a href="#portfolio" class="btn btn-outline" id="hero-cta-portfolio">View Our Work</a>
+      </div>
+
+      <div class="hero-trust">
+        <div class="trust-item">
+          <strong>50+</strong> Sites Delivered
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <strong>98%</strong> Satisfaction Rate
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          ⭐⭐⭐⭐⭐ <strong>5.0</strong> Rated
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="browser-mockup">
+        <div class="browser-bar">
+          <div class="browser-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="browser-url">citigen.co/your-business</div>
+        </div>
+        <div class="browser-content">
+          <div class="mock-nav">
+            <div class="mock-nav-dot"></div>
+            <div class="mock-nav-dot"></div>
+            <div class="mock-nav-dot"></div>
+            <div class="mock-nav-dot" style="flex:1;background:transparent;"></div>
+            <div class="mock-nav-dot" style="width:80px;"></div>
+          </div>
+
+          <div class="mock-hero-block">
+            <div class="mock-line title"></div>
+            <div class="mock-line sub"></div>
+            <div class="mock-line short"></div>
+            <div class="mock-line btn-mock"></div>
+          </div>
+
+          <div class="mock-cards">
+            <div class="mock-card">
+              <div class="mock-icon"></div>
+              <div class="mock-text-sm"></div>
+              <div class="mock-text-sm short"></div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-icon" style="background:linear-gradient(135deg,#06B6D4,#4F46E5);"></div>
+              <div class="mock-text-sm"></div>
+              <div class="mock-text-sm short"></div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-icon" style="background:linear-gradient(135deg,#10B981,#06B6D4);"></div>
+              <div class="mock-text-sm"></div>
+              <div class="mock-text-sm short"></div>
+            </div>
+          </div>
+
+          <div class="mock-hero-block" style="background:linear-gradient(135deg,rgba(6,182,212,0.1),rgba(79,70,229,0.08));flex-direction:row;justify-content:space-between;align-items:center;">
+            <div style="flex:1;display:flex;flex-direction:column;gap:6px;">
+              <div class="mock-line" style="width:60%;height:12px;background:rgba(255,255,255,0.2);"></div>
+              <div class="mock-line" style="width:80%;"></div>
+            </div>
+            <div style="width:70px;height:26px;background:var(--gradient);border-radius:6px;flex-shrink:0;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating badges -->
+      <div class="hero-badge badge-top-right">
+        <div class="hero-badge-icon" style="background:rgba(16,185,129,0.15);">✅</div>
+        <div class="hero-badge-text">
+          <strong>Live in 2 Weeks</strong>
+          <span>Fast turnaround</span>
+        </div>
+      </div>
+
+      <div class="hero-badge badge-bottom-left">
+        <div class="hero-badge-icon" style="background:rgba(245,158,11,0.15);">🚀</div>
+        <div class="hero-badge-text">
+          <strong>SEO Optimized</strong>
+          <span>Rank higher, faster</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     STATS BAR
+     ============================================================ -->
+<div class="stats-bar" aria-label="Key statistics">
+  <div class="container stats-inner">
+    <div class="stat-item reveal">
+      <div class="stat-num" data-target="50">0+</div>
+      <div class="stat-label">Websites Launched</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-num">98%</div>
+      <div class="stat-label">Client Satisfaction</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-num">2wk</div>
+      <div class="stat-label">Avg. Delivery Time</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-num">24/7</div>
+      <div class="stat-label">Support Available</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SERVICES SECTION
+     ============================================================ -->
+<section class="services" id="services" aria-label="Our Services">
+  <div class="orb orb-purple"></div>
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Everything your business<br /><span>needs online</span></h2>
+      <p class="section-sub">From a simple brochure site to a full e-commerce platform — we've got you covered with expert execution at every level.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-icon-wrap">🌐</div>
+        <div class="service-name">Business Websites</div>
+        <p class="service-desc">Professional, mobile-first websites that establish credibility and convert visitors into customers — built specifically for small and medium businesses.</p>
+        <span class="service-tag">→ 5–20 pages</span>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon-wrap">🛒</div>
+        <div class="service-name">E-Commerce Stores</div>
+        <p class="service-desc">Custom Shopify, WooCommerce, or fully bespoke online stores that are fast, secure, and built to sell products or services at scale.</p>
+        <span class="service-tag">→ Shopify · WooCommerce · Custom</span>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon-wrap">🎯</div>
+        <div class="service-name">Landing Pages</div>
+        <p class="service-desc">High-converting, targeted landing pages for ad campaigns, product launches, and lead generation — designed to maximize ROI.</p>
+        <span class="service-tag">→ Campaigns · Product launches</span>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon-wrap">⚙️</div>
+        <div class="service-name">Web App Development</div>
+        <p class="service-desc">Dashboards, client portals, booking systems, and SaaS MVPs — custom web applications built with modern technologies.</p>
+        <span class="service-tag">→ Portals · Dashboards · MVPs</span>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon-wrap">🔍</div>
+        <div class="service-name">SEO &amp; Performance</div>
+        <p class="service-desc">Technical SEO audits, on-page optimization, Core Web Vitals improvements, and content strategy to rank higher and drive organic traffic.</p>
+        <span class="service-tag">→ Rankings · Core Web Vitals</span>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon-wrap">🛡️</div>
+        <div class="service-name">Maintenance &amp; Support</div>
+        <p class="service-desc">Ongoing hosting management, security updates, content changes, performance monitoring, and peace-of-mind care plans.</p>
+        <span class="service-tag">→ Monthly care plans</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRICING SECTION
+     ============================================================ -->
+<section class="pricing" id="pricing" aria-label="Pricing Plans">
+  <div class="orb orb-cyan"></div>
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label">Transparent Pricing</div>
+      <h2 class="section-title">Simple, honest<br /><span>pricing</span></h2>
+      <p class="section-sub">No surprises. No hidden fees. Choose the plan that fits your business, or talk to us for a custom quote.</p>
+    </div>
+
+    <div class="pricing-toggle reveal">
+      <span>One-time</span>
+      <button class="toggle-switch" id="pricing-toggle" aria-pressed="false" aria-label="Toggle between one-time and monthly pricing"></button>
+      <span>Monthly</span>
+      <span class="save-badge">Save 20%</span>
+    </div>
+
+    <div class="pricing-grid" id="pricing-grid">
+
+      <!-- Starter -->
+      <div class="pricing-card reveal">
+        <div class="plan-name">Starter</div>
+        <p class="plan-desc">Perfect for freelancers and small businesses getting online for the first time.</p>
+
+        <div class="plan-price">
+          <span class="price-from">Starting from</span>
+          <div class="price-main" id="price-starter"><sup>$</sup><span class="price-val">799</span></div>
+          <span class="price-period" id="period-starter">one-time payment</span>
+        </div>
+
+        <a href="#contact" class="btn btn-outline plan-cta" id="plan-cta-starter">Get Started</a>
+
+        <div class="plan-divider"></div>
+        <div class="plan-feature-label">What's included</div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check">✓</span> Up to 5 custom pages</li>
+          <li class="plan-feature"><span class="check">✓</span> Mobile-responsive design</li>
+          <li class="plan-feature"><span class="check">✓</span> Contact form integration</li>
+          <li class="plan-feature"><span class="check">✓</span> Basic on-page SEO</li>
+          <li class="plan-feature"><span class="check">✓</span> Google Analytics setup</li>
+          <li class="plan-feature"><span class="check">✓</span> 14-day post-launch support</li>
+          <li class="plan-feature"><span class="check">✓</span> 1 revision round</li>
+        </ul>
+      </div>
+
+      <!-- Growth (Popular) -->
+      <div class="pricing-card popular reveal reveal-delay-1">
+        <div class="popular-label">⭐ Most Popular</div>
+        <div class="plan-name">Growth</div>
+        <p class="plan-desc">For growing SMBs and e-commerce brands ready to scale their online presence.</p>
+
+        <div class="plan-price">
+          <span class="price-from">Starting from</span>
+          <div class="price-main" id="price-growth"><sup>$</sup><span class="price-val">1,999</span></div>
+          <span class="price-period" id="period-growth">one-time payment</span>
+        </div>
+
+        <a href="#contact" class="btn btn-primary plan-cta" id="plan-cta-growth">Get Started</a>
+
+        <div class="plan-divider"></div>
+        <div class="plan-feature-label">Everything in Starter, plus</div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check accent">✓</span> Up to 15 pages</li>
+          <li class="plan-feature"><span class="check accent">✓</span> E-commerce setup (50 products)</li>
+          <li class="plan-feature"><span class="check accent">✓</span> Payment gateway integration</li>
+          <li class="plan-feature"><span class="check accent">✓</span> Advanced SEO &amp; sitemap</li>
+          <li class="plan-feature"><span class="check accent">✓</span> Speed &amp; performance optimization</li>
+          <li class="plan-feature"><span class="check accent">✓</span> 30-day post-launch support</li>
+          <li class="plan-feature"><span class="check accent">✓</span> CMS training session</li>
+          <li class="plan-feature"><span class="check accent">✓</span> 3 revision rounds</li>
+        </ul>
+      </div>
+
+      <!-- Pro / Custom -->
+      <div class="pricing-card reveal reveal-delay-2">
+        <div class="plan-name">Pro / Custom</div>
+        <p class="plan-desc">For scaling brands that need advanced features, integrations, and ongoing partnership.</p>
+
+        <div class="plan-price">
+          <span class="price-from">Starting from</span>
+          <div class="price-main" id="price-pro"><sup>$</sup><span class="price-val">4,999</span></div>
+          <span class="price-period" id="period-pro">one-time payment</span>
+          <span class="price-note" id="note-pro">Custom quote after discovery call</span>
+        </div>
+
+        <a href="#contact" class="btn btn-outline plan-cta" id="plan-cta-pro">Book Discovery Call</a>
+
+        <div class="plan-divider"></div>
+        <div class="plan-feature-label">Everything in Growth, plus</div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check">✓</span> Unlimited pages</li>
+          <li class="plan-feature"><span class="check">✓</span> Custom web app / portal</li>
+          <li class="plan-feature"><span class="check">✓</span> Third-party API integrations</li>
+          <li class="plan-feature"><span class="check">✓</span> E-commerce (unlimited products)</li>
+          <li class="plan-feature"><span class="check">✓</span> Priority support (SLA)</li>
+          <li class="plan-feature"><span class="check">✓</span> Dedicated project manager</li>
+          <li class="plan-feature"><span class="check">✓</span> Unlimited revisions</li>
+          <li class="plan-feature"><span class="check">✓</span> Ongoing retainer option</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Maintenance Addons -->
+    <div class="pricing-addons reveal">
+      <div class="addons-title">
+        🛡️ Monthly Maintenance Add-Ons
+        <span style="font-size:0.78rem;font-weight:400;color:var(--text-muted);margin-left:8px;">— Add to any plan</span>
+      </div>
+      <div class="addons-grid">
+        <div class="addon-item">
+          <div class="addon-icon">🔒</div>
+          <div class="addon-name">Basic Care</div>
+          <div class="addon-desc">Security updates, uptime monitoring, monthly backups, and email support.</div>
+          <div class="addon-price">$49 / month</div>
+        </div>
+        <div class="addon-item">
+          <div class="addon-icon">⚡</div>
+          <div class="addon-name">Growth Care</div>
+          <div class="addon-desc">All Basic features + content updates (up to 4/month), performance reports, priority email.</div>
+          <div class="addon-price">$149 / month</div>
+        </div>
+        <div class="addon-item">
+          <div class="addon-icon">🚀</div>
+          <div class="addon-name">Pro Care</div>
+          <div class="addon-desc">All Growth features + unlimited minor updates, monthly SEO report, phone support.</div>
+          <div class="addon-price">$299 / month</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHAT YOU GET SECTION
+     ============================================================ -->
+<section class="features" id="features" aria-label="What You Get">
+  <div class="orb orb-purple"></div>
+  <div class="container">
+    <div class="features-inner">
+
+      <!-- Floating Cards Visual -->
+      <div class="features-visual" aria-hidden="true">
+        <div class="features-card-stack">
+
+          <div class="feat-card">
+            <div class="feat-card-icon" style="background:rgba(79,70,229,0.12);">🎨</div>
+            <div class="feat-card-text">
+              <strong>100% Custom Design</strong>
+              <span>No templates — built just for you</span>
+            </div>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-card-icon" style="background:rgba(6,182,212,0.12);">📱</div>
+            <div class="feat-card-text">
+              <strong>Mobile-First &amp; Responsive</strong>
+              <span>Looks perfect on every device</span>
+            </div>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-card-icon" style="background:rgba(16,185,129,0.12);">🔍</div>
+            <div class="feat-card-text">
+              <strong>SEO-Ready from Day 1</strong>
+              <span>Built to rank on Google</span>
+            </div>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-card-icon" style="background:rgba(245,158,11,0.12);">⚡</div>
+            <div class="feat-card-text">
+              <strong>Blazing Fast Load Times</strong>
+              <span>Core Web Vitals optimized</span>
+            </div>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-card-icon" style="background:rgba(99,102,241,0.12);">🛡️</div>
+            <div class="feat-card-text">
+              <strong>Secure &amp; SSL Protected</strong>
+              <span>HTTPS, DDoS protection, backups</span>
+            </div>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-card-icon" style="background:rgba(239,68,68,0.12);">📊</div>
+            <div class="feat-card-text">
+              <strong>Analytics &amp; Insights</strong>
+              <span>Know exactly who visits your site</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="features-content">
+        <div class="section-label">What You Get</div>
+        <h2 class="section-title">Built right,<br /><span>the first time</span></h2>
+        <p class="section-sub">Every Citigen website is engineered with best practices baked in — so you don't have to fix problems later.</p>
+
+        <ul class="features-list">
+          <li class="feature-item reveal">
+            <div class="feature-check">✓</div>
+            <div class="feature-text">
+              <strong>Custom Design — No Templates</strong>
+              <p>Every pixel is crafted specifically for your brand, giving you a unique look that stands out from competitors using generic themes.</p>
+            </div>
+          </li>
+          <li class="feature-item reveal reveal-delay-1">
+            <div class="feature-check">✓</div>
+            <div class="feature-text">
+              <strong>Mobile-First &amp; Lightning Fast</strong>
+              <p>Over 60% of web traffic is mobile. We build for that reality — optimized for speed on all devices and network conditions.</p>
+            </div>
+          </li>
+          <li class="feature-item reveal reveal-delay-2">
+            <div class="feature-check">✓</div>
+            <div class="feature-text">
+              <strong>SEO &amp; Content Management</strong>
+              <p>You get a CMS you can actually use, plus on-page SEO that helps your site rank from launch day — not as an afterthought.</p>
+            </div>
+          </li>
+          <li class="feature-item reveal reveal-delay-3">
+            <div class="feature-check">✓</div>
+            <div class="feature-text">
+              <strong>Training &amp; Full Handover</strong>
+              <p>We spend time training you or your team so you're fully confident managing your site. Everything is documented and handed over cleanly.</p>
+            </div>
+          </li>
+          <li class="feature-item reveal reveal-delay-4">
+            <div class="feature-check">✓</div>
+            <div class="feature-text">
+              <strong>Post-Launch Support Included</strong>
+              <p>Every project includes post-launch support so you're never left on your own when you go live. Plus flexible maintenance plans.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROCESS SECTION
+     ============================================================ -->
+<section class="process" id="process" aria-label="Our Process">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-title">From idea to live<br /><span>in 4 simple steps</span></h2>
+      <p class="section-sub">A clear, collaborative process that keeps you informed at every stage — no guesswork, no surprises.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-line" aria-hidden="true"></div>
+
+      <div class="step-card reveal">
+        <div class="step-num">1</div>
+        <div class="step-icon">☎️</div>
+        <div class="step-name">Discovery Call</div>
+        <p class="step-desc">We start with a free 30-minute call to understand your business, goals, target audience, and what success looks like for you.</p>
+      </div>
+
+      <div class="step-card reveal reveal-delay-1">
+        <div class="step-num">2</div>
+        <div class="step-icon">🎨</div>
+        <div class="step-name">Design &amp; Prototype</div>
+        <p class="step-desc">We create wireframes and high-fidelity mockups for your review. You give feedback, we refine until you love it.</p>
+      </div>
+
+      <div class="step-card reveal reveal-delay-2">
+        <div class="step-num">3</div>
+        <div class="step-icon">💻</div>
+        <div class="step-name">Build &amp; Test</div>
+        <p class="step-desc">Our developers build your site with clean, fast code. Rigorous QA testing across devices and browsers before you see it.</p>
+      </div>
+
+      <div class="step-card reveal reveal-delay-3">
+        <div class="step-num">4</div>
+        <div class="step-icon">🚀</div>
+        <div class="step-name">Launch &amp; Support</div>
+        <p class="step-desc">We go live together. Post-launch, you get dedicated support to handle any issues and ensure a smooth launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PORTFOLIO SECTION
+     ============================================================ -->
+<section class="portfolio" id="portfolio" aria-label="Our Work">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label">Our Work</div>
+      <h2 class="section-title">Projects we're<br /><span>proud of</span></h2>
+      <p class="section-sub">A snapshot of recent work across industries. Every project is unique, delivered on time, and built to last.</p>
+    </div>
+
+    <div class="portfolio-tabs reveal" role="tablist" aria-label="Portfolio filters">
+      <button class="tab-btn active" data-filter="all" role="tab" aria-selected="true" id="tab-all">All</button>
+      <button class="tab-btn" data-filter="ecommerce" role="tab" aria-selected="false" id="tab-ecommerce">E-Commerce</button>
+      <button class="tab-btn" data-filter="business" role="tab" aria-selected="false" id="tab-business">Business Sites</button>
+      <button class="tab-btn" data-filter="webapp" role="tab" aria-selected="false" id="tab-webapp">Web Apps</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolio-grid">
+
+      <!-- Card 1: E-Commerce -->
+      <div class="portfolio-card reveal" data-category="ecommerce">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#1a0533,#2d1263);">
+            <div class="portfolio-header-bar" style="background:rgba(0,0,0,0.3);">
+              <div class="pf-dot" style="background:#ff5f56;"></div>
+              <div class="pf-dot" style="background:#ffbd2e;"></div>
+              <div class="pf-dot" style="background:#27c93f;"></div>
+            </div>
+            <div class="portfolio-body-preview">
+              <div style="height:60px;background:linear-gradient(135deg,rgba(139,92,246,0.3),rgba(79,70,229,0.2));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;">🛍️</div>
+              <div class="pb-row">
+                <div class="pb-block" style="flex:1;background:rgba(255,255,255,0.1);"></div>
+                <div class="pb-block" style="flex:1;background:rgba(255,255,255,0.1);"></div>
+                <div class="pb-block" style="flex:1;background:rgba(255,255,255,0.1);"></div>
+              </div>
+              <div class="pb-row">
+                <div class="pb-block" style="width:60%;background:rgba(255,255,255,0.07);"></div>
+              </div>
+              <div style="height:28px;background:linear-gradient(135deg,#8B5CF6,#4F46E5);border-radius:6px;margin-top:4px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">E-Commerce</div>
+          <div class="portfolio-title">LuxeThreads Boutique Store</div>
+          <p class="portfolio-desc">Custom Shopify store with bespoke design, inventory sync, and a 40% conversion lift after launch.</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Business Site -->
+      <div class="portfolio-card reveal reveal-delay-1" data-category="business">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#011c2a,#02364f);">
+            <div class="portfolio-header-bar" style="background:rgba(0,0,0,0.3);">
+              <div class="pf-dot" style="background:#ff5f56;"></div>
+              <div class="pf-dot" style="background:#ffbd2e;"></div>
+              <div class="pf-dot" style="background:#27c93f;"></div>
+            </div>
+            <div class="portfolio-body-preview">
+              <div style="display:flex;gap:8px;margin-bottom:4px;">
+                <div style="flex:1;height:36px;background:rgba(6,182,212,0.15);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1rem;">🏢</div>
+                <div style="flex:2;display:flex;flex-direction:column;justify-content:center;gap:5px;">
+                  <div style="height:8px;background:rgba(255,255,255,0.2);border-radius:4px;width:70%;"></div>
+                  <div style="height:6px;background:rgba(255,255,255,0.1);border-radius:4px;width:90%;"></div>
+                </div>
+              </div>
+              <div class="pb-row" style="height:50px;background:rgba(6,182,212,0.08);border-radius:8px;align-items:center;padding:0 8px;">
+                <div class="pb-block" style="flex:1;height:6px;background:rgba(255,255,255,0.15);border-radius:3px;"></div>
+              </div>
+              <div class="pb-row">
+                <div class="pb-block" style="flex:1;background:rgba(255,255,255,0.05);height:24px;border-radius:6px;"></div>
+                <div class="pb-block" style="flex:1;background:rgba(6,182,212,0.2);height:24px;border-radius:6px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Business Website</div>
+          <div class="portfolio-title">Apex Consulting Group</div>
+          <p class="portfolio-desc">12-page corporate site with CMS integration, team directory, blog, and appointment booking system.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Web App -->
+      <div class="portfolio-card reveal reveal-delay-2" data-category="webapp">
+        <div class="portfolio-thumb">
+          <div class="portfolio-thumb-inner" style="background:linear-gradient(135deg,#001a0f,#003320);">
+            <div class="portfolio-header-bar" style="background:rgba(0,0,0,0.3);">
+              <div class="pf-dot" style="background:#ff5f56;"></div>
+              <div class="pf-dot" style="background:#ffbd2e;"></div>
+              <div class="pf-dot" style="background:#27c93f;"></div>
+            </div>
+            <div class="portfolio-body-preview" style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+              <div style="background:rgba(16,185,129,0.1);border-radius:6px;padding:8px;display:flex;flex-direction:column;gap:4px;grid-column:span 2;height:40px;"></div>
+              <div style="background:rgba(16,185,129,0.08);border-radius:6px;padding:8px;height:50px;"></div>
+              <div style="background:rgba(16,185,129,0.05);border-radius:6px;padding:8px;height:50px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;">📈</div>
+              <div style="background:rgba(16,185,129,0.08);border-radius:6px;padding:8px;height:30px;grid-column:span 2;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Web App</div>
+          <div class="portfolio-title">GreenTrack Operations Dashboard</div>
+          <p class="portfolio-desc">Real-time analytics dashboard for a logistics SMB — replacing spreadsheets with a custom web app.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TESTIMONIALS SECTION
+     ============================================================ -->
+<section class="testimonials" id="testimonials" aria-label="Client Testimonials">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label">Client Love</div>
+      <h2 class="section-title">What our clients<br /><span>say about us</span></h2>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <div class="testi-card reveal">
+        <span class="testi-quote-icon">"</span>
+        <div class="testi-stars">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+        </div>
+        <p class="testi-text">Citigen completely transformed our online presence. Our new e-commerce store is beautiful, fast, and our sales are up 60% within the first 3 months. The whole process was seamless.</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#4F46E5,#06B6D4);">S</div>
+          <div class="testi-meta">
+            <strong>Sarah K.</strong>
+            <span>Owner, LuxeThreads Boutique</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-1">
+        <span class="testi-quote-icon">"</span>
+        <div class="testi-stars">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+        </div>
+        <p class="testi-text">We needed a professional corporate site in under 3 weeks. Citigen delivered it in 12 days — and it looked better than we could have imagined. Responsive team and exceptional quality.</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#06B6D4,#10B981);">M</div>
+          <div class="testi-meta">
+            <strong>Michael D.</strong>
+            <span>CEO, Apex Consulting Group</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-2">
+        <span class="testi-quote-icon">"</span>
+        <div class="testi-stars">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+        </div>
+        <p class="testi-text">The custom dashboard they built replaced our entire Excel workflow. Our team adopted it immediately. The training session was excellent and the ongoing support has been invaluable.</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#10B981,#4F46E5);">A</div>
+          <div class="testi-meta">
+            <strong>Amara J.</strong>
+            <span>Operations Manager, GreenTrack</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ SECTION
+     ============================================================ -->
+<section class="faq" id="faq" aria-label="Frequently Asked Questions">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title">Common <span>questions</span></h2>
+    </div>
+
+    <div class="faq-inner">
+      <!-- Side content -->
+      <div class="faq-side">
+        <p class="section-sub" style="margin-top:12px;">Can't find your answer here? We're happy to chat.</p>
+        <div class="faq-contact-box">
+          <h4>Still have questions?</h4>
+          <p>Book a free 30-minute discovery call — no commitment, no sales pressure.</p>
+          <a href="#contact" class="btn btn-white" id="faq-contact-btn">
+            Talk to Us →
+          </a>
+        </div>
+      </div>
+
+      <!-- FAQ Items -->
+      <div class="faq-list" role="list">
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">
+            <span class="faq-q-text">How long does it take to build my website?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+            <div class="faq-answer-inner">
+              Turnaround time depends on the plan. Starter sites typically take 1–2 weeks. Growth (e-commerce) projects take 2–4 weeks. Pro/Custom projects vary by scope and are scoped during the discovery call. We provide a detailed timeline before any work begins.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">
+            <span class="faq-q-text">Do I need to provide content (text and images)?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+            <div class="faq-answer-inner">
+              You can, but you don't have to. We can work with content you provide, or we can help source stock photography and write copywriting for your pages as a paid add-on. We'll guide you on exactly what we need from you.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">
+            <span class="faq-q-text">Will I be able to update the site myself?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+            <div class="faq-answer-inner">
+              Yes! We always set up a CMS (like WordPress or a headless solution) so you can update text, images, products, and blog posts without touching code. Growth and Pro plans include a training session to walk you through it.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">
+            <span class="faq-q-text">What's included in the post-launch support?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+            <div class="faq-answer-inner">
+              Post-launch support covers bug fixes, minor adjustments, and technical issues that arise after go-live. Starter includes 14 days, Growth includes 30 days. Beyond that, our monthly maintenance plans cover ongoing support.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">
+            <span class="faq-q-text">Do you handle hosting and domain setup?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+            <div class="faq-answer-inner">
+              Yes! We can help set up your domain and hosting, or deploy to your existing hosting. We work with all major providers. Hosting recommendations and setup are included in all plans at no extra cost.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">
+            <span class="faq-q-text">How do payments and revisions work?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a6" role="region" aria-labelledby="faq-q6">
+            <div class="faq-answer-inner">
+              We work on a 50% upfront / 50% on delivery basis. Revisions are included as specified per plan. Additional revision rounds beyond the plan limit are charged at $75/round. We keep everything transparent in a signed agreement before starting.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q7" aria-expanded="false" aria-controls="faq-a7">
+            <span class="faq-q-text">Can you redesign my existing website?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a7" role="region" aria-labelledby="faq-q7">
+            <div class="faq-answer-inner">
+              Absolutely. Website redesigns are one of our specialties. We can modernize your existing site while preserving your SEO rankings, brand identity, and content — or start fresh if that's what you need.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" id="faq-q8" aria-expanded="false" aria-controls="faq-a8">
+            <span class="faq-q-text">Do you work with businesses outside your local area?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a8" role="region" aria-labelledby="faq-q8">
+            <div class="faq-answer-inner">
+              Yes! We work with businesses globally. Our entire process is remote-friendly — calls, design reviews, approvals, and delivery all happen online. Distance is never an obstacle to great work.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA BANNER
+     ============================================================ -->
+<div class="cta-banner">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <h2 class="cta-title">Ready to grow your business online?</h2>
+      <p class="cta-sub">Get a free quote in 24 hours. No commitment, no pressure — just a conversation about what's possible.</p>
+      <div class="cta-actions">
+        <a href="#contact" class="btn btn-white" id="cta-banner-btn">Get Your Free Quote</a>
+        <a href="#pricing" class="btn btn-outline-white" id="cta-banner-pricing">See Pricing</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     CONTACT SECTION
+     ============================================================ -->
+<section class="contact" id="contact" aria-label="Contact Us">
+  <div class="orb orb-purple"></div>
+  <div class="orb orb-cyan"></div>
+  <div class="container contact-inner">
+
+    <!-- Info -->
+    <div>
+      <div class="section-label">Get In Touch</div>
+      <h2 class="contact-info-title">Let's build<br /><span>something great</span></h2>
+      <p class="contact-info-desc">Tell us about your project and we'll get back to you within 24 hours with a free, no-obligation quote tailored to your needs.</p>
+
+      <div class="contact-details">
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📧</div>
+          <div class="contact-detail-text">
+            <strong>Email Us</strong>
+            <span>hello@citigen.co</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📞</div>
+          <div class="contact-detail-text">
+            <strong>Call Us</strong>
+            <span>+1 (555) 000-0000</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">⏱️</div>
+          <div class="contact-detail-text">
+            <strong>Response Time</strong>
+            <span>Within 24 hours</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">🌍</div>
+          <div class="contact-detail-text">
+            <strong>We Work Globally</strong>
+            <span>Remote-friendly, anywhere in the world</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="contact-form-wrap reveal">
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name">Your Name *</label>
+            <input type="text" id="cf-name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email Address *</label>
+            <input type="email" id="cf-email" name="email" placeholder="jane@company.com" required autocomplete="email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="cf-business">Business Name</label>
+          <input type="text" id="cf-business" name="business" placeholder="Your Company Ltd." autocomplete="organization" />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-service">Service Needed *</label>
+            <select id="cf-service" name="service" required>
+              <option value="" disabled selected>Select a service…</option>
+              <option value="business-website">Business Website</option>
+              <option value="ecommerce">E-Commerce Store</option>
+              <option value="landing-page">Landing Page</option>
+              <option value="web-app">Web App / Portal</option>
+              <option value="redesign">Website Redesign</option>
+              <option value="maintenance">Maintenance Plan</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="cf-budget">Estimated Budget</label>
+            <select id="cf-budget" name="budget">
+              <option value="" disabled selected>Select budget range…</option>
+              <option value="under-1k">Under $1,000</option>
+              <option value="1k-3k">$1,000 – $3,000</option>
+              <option value="3k-7k">$3,000 – $7,000</option>
+              <option value="7k-15k">$7,000 – $15,000</option>
+              <option value="15k-plus">$15,000+</option>
+              <option value="not-sure">Not sure yet</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="cf-message">Tell us about your project *</label>
+          <textarea id="cf-message" name="message" placeholder="Describe your business, what you need, and any specific goals or deadlines…" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit" id="form-submit-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          Send Message
+        </button>
+
+        <div class="form-success" id="form-success" role="alert" aria-live="polite">
+          ✅ Message sent! We'll be in touch within 24 hours.
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer" id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">Citi<span>gen</span></div>
+        <p>We build websites and web applications that help small and medium businesses grow online — with beautiful design, transparent pricing, and expert support.</p>
+        <div class="footer-social">
+          <a class="social-btn" href="#" aria-label="Twitter / X">𝕏</a>
+          <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
+          <a class="social-btn" href="#" aria-label="Instagram">📸</a>
+          <a class="social-btn" href="#" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Business Websites</a></li>
+          <li><a href="#services">E-Commerce Stores</a></li>
+          <li><a href="#services">Landing Pages</a></li>
+          <li><a href="#services">Web App Development</a></li>
+          <li><a href="#services">SEO &amp; Performance</a></li>
+          <li><a href="#services">Maintenance Plans</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#process">How We Work</a></li>
+          <li><a href="#portfolio">Our Work</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Get Started</h5>
+        <ul>
+          <li><a href="#contact">Free Quote</a></li>
+          <li><a href="#contact">Discovery Call</a></li>
+          <li><a href="#pricing">Starter Plan</a></li>
+          <li><a href="#pricing">Growth Plan</a></li>
+          <li><a href="#pricing">Pro Plan</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Citigen. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
